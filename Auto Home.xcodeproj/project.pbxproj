@@ -13,6 +13,11 @@
 		F8B2495F25FE125000432FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B2495D25FE125000432FB2 /* Main.storyboard */; };
 		F8B2496125FE125200432FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B2496025FE125200432FB2 /* Assets.xcassets */; };
 		F8B2496425FE125200432FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B2496225FE125200432FB2 /* LaunchScreen.storyboard */; };
+		F8B2496D25FE16F700432FB2 /* CarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2496C25FE16F600432FB2 /* CarsTableViewController.swift */; };
+		F8B2497025FE173000432FB2 /* EstimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2496F25FE173000432FB2 /* EstimateViewController.swift */; };
+		F8B2497325FE17AF00432FB2 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2497225FE17AF00432FB2 /* Car.swift */; };
+		F8B2497625FE19A400432FB2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2497525FE19A400432FB2 /* DetailViewController.swift */; };
+		F8B2498225FF7EDD00432FB2 /* BrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2498125FF7EDD00432FB2 /* BrandViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F8B2496025FE125200432FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8B2496325FE125200432FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8B2496525FE125200432FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B2496C25FE16F600432FB2 /* CarsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsTableViewController.swift; sourceTree = "<group>"; };
+		F8B2496F25FE173000432FB2 /* EstimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateViewController.swift; sourceTree = "<group>"; };
+		F8B2497225FE17AF00432FB2 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		F8B2497525FE19A400432FB2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F8B2498125FF7EDD00432FB2 /* BrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				F8B2495925FE125000432FB2 /* SceneDelegate.swift */,
 				F8B2495B25FE125000432FB2 /* ViewController.swift */,
 				F8B2495D25FE125000432FB2 /* Main.storyboard */,
+				F8B2498125FF7EDD00432FB2 /* BrandViewController.swift */,
+				F8B2497525FE19A400432FB2 /* DetailViewController.swift */,
+				F8B2497225FE17AF00432FB2 /* Car.swift */,
+				F8B2496F25FE173000432FB2 /* EstimateViewController.swift */,
+				F8B2496C25FE16F600432FB2 /* CarsTableViewController.swift */,
 				F8B2496025FE125200432FB2 /* Assets.xcassets */,
 				F8B2496225FE125200432FB2 /* LaunchScreen.storyboard */,
 				F8B2496525FE125200432FB2 /* Info.plist */,
@@ -137,9 +152,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B2496D25FE16F700432FB2 /* CarsTableViewController.swift in Sources */,
+				F8B2497025FE173000432FB2 /* EstimateViewController.swift in Sources */,
+				F8B2498225FF7EDD00432FB2 /* BrandViewController.swift in Sources */,
+				F8B2497325FE17AF00432FB2 /* Car.swift in Sources */,
 				F8B2495C25FE125000432FB2 /* ViewController.swift in Sources */,
 				F8B2495825FE125000432FB2 /* AppDelegate.swift in Sources */,
 				F8B2495A25FE125000432FB2 /* SceneDelegate.swift in Sources */,
+				F8B2497625FE19A400432FB2 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
